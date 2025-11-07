@@ -9,3 +9,36 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.clock-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background: black;
+    width: 50%;
+}
+
+.clock-symbol {
+    color: white;
+    font-size: 45px;
+}
+
+.digit-container {
+    color: white;
+    font-size: 50px;
+    height: 80px;
+    width: 60px;
+    background-color: rgb(27, 22, 22);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-content: center;
+    border-radius: 10px;
+}
