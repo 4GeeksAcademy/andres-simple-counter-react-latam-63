@@ -3,6 +3,7 @@ import React from "react";
 
 //create your first component
 const Home = (props) => {
+
 	return (
 		<div className="container">
 			<div className="clock-container">
@@ -27,7 +28,6 @@ const Home = (props) => {
 				<div className="digit-container">
 					<div>{props.digit6}</div>
 				</div>
-				
 			</div>
 		</div >
 	);
